@@ -13,11 +13,17 @@ body {
 h1 {
   font-size: 3.5rem;
   color: black;
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
+  font-size: 200px;
+  font-style: normal;
+  margin-top: 30px;
 }
 
 .choices {
   margin-bottom: 30px;
 }
+
 .choices button {
   font-size: 7.5rem;
   min-width: 160px;
@@ -47,10 +53,10 @@ h1 {
 
 .greenText,
 #playerScoreDisplay {
-  color: green;
+  color: rgb(239, 176, 252);
 }
 
 .redText,
 #computerScoreDisplay {
-  color: red;
+  color: rgb(155, 221, 241);
 }
