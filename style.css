@@ -19,6 +19,13 @@ h1 {
   font-style: normal;
   margin-top: 30px;
 }
+.scoreDisplay {
+  font-size: 3.5rem;
+  color: black;
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
+  font-size: 300px;
+}
 
 .choices {
   margin-bottom: 30px;
