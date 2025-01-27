@@ -29,6 +29,10 @@ h1 {
 
 .choices {
   margin-bottom: 30px;
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
+  font-size: 200px;
+  font-style: normal;
 }
 
 .choices button {
@@ -42,16 +46,20 @@ h1 {
 }
 
 .choices button:hover {
-  background-color: hsl(200, 100%, 70%);
+  background-color: hsl(188, 60%, 71%);
 }
 
 #playerDisplay,
 #computerDisplay {
   font-size: 2.5rem;
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
 }
 #resultDisplay {
   font-size: 5rem;
   margin: 30px 0;
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
 }
 
 .scoreDisplay {
@@ -60,10 +68,22 @@ h1 {
 
 .greenText,
 #playerScoreDisplay {
-  color: rgb(239, 176, 252);
+  color: rgb(121, 250, 175);
+  font-size: 3.5rem;
 }
 
 .redText,
 #computerScoreDisplay {
   color: rgb(155, 221, 241);
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+  color: black;
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
+  font-size: 200px;
+  font-style: normal;
+  margin-top: 30px;
 }
